@@ -1,2 +1,85 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Color Theme Webpage</title>
+
+  <!-- Linking External CSS File -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Color Theme Examples</h1>
+
+  <div class="theme-container">
+
+    <div class="theme light">
+      <h2>Light Theme</h2>
+      <p>This is a clean and simple light theme with a white background, dark text, and soft heading colors. It gives a bright and modern look.</p>
+    </div>
+
+    <div class="theme dark">
+      <h2>Dark Theme</h2>
+      <p>This dark theme uses a black background with light text. It’s easy on the eyes, especially at night or in low-light environments.</p>
+    </div>
+
+    <div class="theme nature">
+      <h2>Nature Theme</h2>
+      <p>This nature-inspired theme uses green shades to represent freshness and calmness. It feels peaceful and natural.</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.theme-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.theme {
+  width: 30%;
+  border: 2px solid #000;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Light Theme */
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+.light h2 {
+  color: #2c3e50;
+}
+
+/* Dark Theme */
+.dark {
+  background-color: #222222;
+  color: #f1f1f1;
+}
+.dark h2 {
+  color: #ffcc00;
+}
+
+/* Nature Theme */
+.nature {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+.nature h2 {
+  color: #1b5e20;
+}
+
